@@ -57,6 +57,7 @@ li {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  height: 100%;
 }
 #about {
   background-color: #f8ffdc;
@@ -153,8 +154,7 @@ footer {
     }
     .home__description--button{
         max-width: 240px;
-
-    }
+}
     h1{
         text-align: center;
         font-size: 28px;
