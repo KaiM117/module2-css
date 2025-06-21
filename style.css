@@ -67,7 +67,7 @@ About
 */
 #about,
 #discord,
-#about, 
+#about,
 footer {
   padding: 48px 0;
 }
@@ -115,6 +115,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0 24px;
 }
 input,
 textarea {
@@ -135,35 +136,66 @@ footer {
   max-width: 480px;
   margin-bottom: 16px;
 }
-.footer__links{
-    margin-bottom: 32px;
+.footer__links {
+  margin-bottom: 32px;
 }
-.footer__link{
-    padding: 0 16px;
+.footer__link {
+  padding: 0 16px;
 }
 /* small phones, tablets, large smartphones*/
 @media (max-width: 728px) {
-    .row{
-        flex-direction: column;
-    }
-    .home__description{
-        margin-bottom: 24px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .home__description--button{
-        max-width: 240px;
-}
-    h1{
-        text-align: center;
-        font-size: 28px;
-    }
-    .subheader{
-        text-align: center;
-        font-size: 28px;
-    }
-    ul{
-        display: none;
-    }
+  .row {
+    flex-direction: column;
+  }
+  .home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home__description--button {
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 28px;
+  }
+  .subheader {
+    text-align: center;
+    font-size: 28px;
+  }
+  ul {
+    display: none;
+  }
+  .imgresize {
+    width: 300px;
+    height: 300px;
+  }
+  .section__description {
+    flex-direction: column;
+  }
+  .section__description--wrapper {
+    width: 100%;
+  }
+  .about__img--wrapper {
+    width: 100%;
+  }
+  #discord .section__description {
+    flex-direction: column-reverse;
+  }
+  footer {
+    padding: 48px 24px;
+  }
+  .footer__logo {
+    max-width: 360px;
+  }
+  .footer__link {
+    padding: 0 4px;
+    font-size: 18px;
+  }
+  .footer__links {
+    margin-bottom: 24px;
+  }
 }
